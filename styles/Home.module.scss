@@ -1,0 +1,297 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  margin-left: 400px;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+
+.tours{
+ 
+margin: 0 72px;
+
+  h3{
+    color:#0C672B ;
+  }
+  img{
+    
+    width: 100%;
+   
+  }
+
+
+}
+
+.apple{
+
+  margin: 0 72px;
+
+  h3{
+    color:#0C672B ;
+  }
+  img{
+   
+    width: 100%;
+   
+  }
+
+}
+
+.alarcha{
+
+  margin-left: 0 72px;
+
+  h3{
+    color:#0C672B 
+  }
+  img{
+    margin:20px 20px ;
+   
+   
+  }
+  .gallery{
+   display: inline;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .cost{
+    display: inline-flexbox;
+
+    li{
+      color:#0C672B ;
+    }
+  }
+
+  .can{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    h4{
+      color:#0C672B ;
+      margin: 20px;
+    }
+    button{
+      width: 187px;
+      height: 41px;
+      border-color: #0C672B;
+      color: #0C672B;
+      border-radius: 50px;
+      background: none;
+      
+      
+    }
+  }
+}
+
+.kemin{
+  // margin: 0 72px;
+
+  h3{
+    color:#0C672B 
+  }
+  img{
+    margin: 20px ;}
+    .can{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      h4{
+        color:#0C672B ;
+        margin: 20px;
+      }
+      button{
+        width: 187px;
+        height: 41px;
+        border-color: #0C672B;
+        color: #0C672B;
+        border-radius: 50px;
+        background: none;
+        
+        
+      }
+    }
+}
+
+.songkol{
+  margin: 0 72px;
+
+  h3{
+    color:#0C672B 
+  }
+  .gallery2{
+display: inline;
+
+   img{
+     margin: 20px;
+   }
+  }
+  
+    .can{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      h4{
+        color:#0C672B ;
+        margin: 20px;
+      }
+      button{
+        width: 187px;
+        height: 41px;
+        border-color: #0C672B;
+        color: #0C672B;
+        border-radius: 50px;
+        background: none;
+        
+        
+      }
+    }
+}
+
+@media all and(max-width:1024px){
+
+.tours{
+  margin: 0 62px;
+}
+.apple{
+  margin: 0 62px;
+}
+}
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .tours{
+    margin: 0 22px;
+  }
+  .apple{
+    margin: 0 22px;
+  }
+}
+@media all and(max-width:426px){
+
+  .tours{
+    margin: 0 12px;
+  }
+  .apple{
+    margin: 0 12px;
+  }
+  }
+  @media all and(max-width:376px){
+
+    .tours{
+      margin: 0 6px;
+    }
+    .apple{
+      margin: 0 6px;
+    }
+    }
